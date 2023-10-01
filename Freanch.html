@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+      body{
+        background-color:#8098ff;
+        }
+     #nuha{
+       background-color:red;
+       width:100%;
+       height:100px;
+       text-align:center;
+     } 
+  
+     h1{
+         text-align:center;
+         color:white;
+     }
+     h3{
+       background-color:#8098ff;  
+     }
+     audio{
+        width:100px;
+     }
+    </style>
+</head>
+<body>
+ <h1>Eyob's game</h1>
+   <table>
+   <tr>
+ <td>
+<div id="nuha">
+ <h3>the word</h3>
+	<audio controls>
+	<source src="./audieo/1.m4a" type="audio/mp3">
+</audio>	
+	</div>
+</td><td>
+<div id="nuha">
+ <h3>Amharic</h3>
+	<p id="i"></p>
+	</div></td><td>
+<div id="nuha">
+ <h3>English</h3>
+	<p id="myPar"></p>
+	</div>	    
+	</td><td>
+<div id="nuha">
+ <h3>France</h3>
+	<p id="m"></p>
+	</div>	    
+	</td>
+	<td>
+	<button type="button" onclick="Howareyou()">see it</button></td>
+</tr>	
+<tr>
+ <td>
+<div id="nuha">
+<audio controls>
+	<source src="./audieo/2.m4a" type="audio/mp3">
+</audio>		
+	</div>
+</td><td>
+<div id="nuha">
+	<p id="im"></p>
+	</div></td><td>
+<div id="nuha">
+	<p id="myPars"></p>
+	</div>	    
+	</td><td>
+<div id="nuha">
+	<p id="ms"></p>
+	</div>	    
+	</td>
+	<td>
+	<button type="button" onclick="fine()">see it</button></td>
+</tr>	
+<tr>
+ <td>
+<div id="nuha">
+	<audio controls>
+	<source src="./audieo/3.m4a" type="audio/mp3">
+</audio>	
+	</div>
+</td><td>
+<div id="nuha">
+	<p id="sl"></p>
+	</div></td><td>
+<div id="nuha">
+	<p id="myParl"></p>
+	</div>	    
+	</td><td>
+<div id="nuha">
+	<p id="ml"></p>
+	</div>	    
+	</td>
+	<td>
+	<button type="button" onclick="whatgame()">see it</button></td>
+</tr>
+</table>
+	<script>
+		function Howareyou() {
+			document.getElementById("myPar").innerHTML = "How are you?";
+			document.getElementById("m").innerHTML = "Comment ça va?";
+			document.getElementById("i").innerHTML = "እንዴት ነህ?";
+	}
+	
+	function fine() {
+			document.getElementById("myPars").innerHTML = "I am fine";
+			document.getElementById("ms").innerHTML = "je vais bien";
+			document.getElementById("im").innerHTML = "ደና ነኝ.";
+	}
+	
+function whatgame() {
+			document.getElementById("myParl").innerHTML = "Do you want to play with me?";
+			document.getElementById("ml").innerHTML = "Voulez-vous jouer avec moi?";
+			document.getElementById("sl").innerHTML = "ከእኔ ጋር መጫወት ትፈልጋለህ?";
+	}
+	
+function whichgame() {
+      document.getElementById("mypar").innerHTML = "ከእኔ ጋር ምን መጫወት ትፈልጋለህ?";
+				document.getElementById("mg").innerHTML = "what Do you want to play with me?";
+			document.getElementById("tl").innerHTML = "Que veux-tu jouer avec moi ?";
+			
+	}
+
+	
+		</script>
+</body>
+</html>
